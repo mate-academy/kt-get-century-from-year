@@ -1,12 +1,16 @@
-In this task, you have the `year` variable.
+In this task, implement a `getCentury()` function that:
 
-**Your task:** in the `getCentury()` method, return a century this `year` is in. The first century begins in year `1` and continues up to and including year `100`, the second from year `101` to year `200`, and so on.
+- accepts the `year` variable;
+- returns a century this `year` is in.
 
+Note that the first century begins from the year `1` and continues up to and including the year `100`, the second from the year `101` to the year `200`, and so on.
 
 For example:
+
 ```kotlin
 getCentury(1705) // 18
 getCentury(1900) // 19
 getCentury(1601) // 17
 getCentury(2000) // 20
 ```
+
