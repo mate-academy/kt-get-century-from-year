@@ -1,3 +1,5 @@
+# Get Century From Year 
+
 In this task, implement a `getCentury()` function that:
 
 - accepts the `year` variable;
@@ -13,4 +15,3 @@ getCentury(1900) // 19
 getCentury(1601) // 17
 getCentury(2000) // 20
 ```
-
