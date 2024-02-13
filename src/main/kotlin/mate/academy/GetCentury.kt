@@ -2,7 +2,7 @@ package mate.academy
 
 import kotlin.math.ceil
 
+const val CENTER = 100.00
 fun getCentury(year: Int) : Int {
-    var center = 100.00;
-    return ceil( year / center).toInt();
+    return ceil( year / CENTER).toInt();
 }
