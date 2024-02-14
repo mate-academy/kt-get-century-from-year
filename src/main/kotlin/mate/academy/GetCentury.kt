@@ -1,5 +1,5 @@
 package mate.academy
 
-fun getCentury(year: Int) : Int {
-    return 0
-}
+import java.lang.Math.ceil
+
+fun getCentury(year: Int) : Int  = (year + 99) / 100
