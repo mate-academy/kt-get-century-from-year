@@ -6,3 +6,5 @@ fun getCentury(year: Int) : Int {
     }
     return year/100 + 1
 }
+
+
