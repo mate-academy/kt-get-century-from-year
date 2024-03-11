@@ -1,16 +1,19 @@
 package mate.academy
 
+const val YEAR_OF_17_CENTURY = 1601
+const val YEAR_OF_20_CENTURY = 2000
+const val CENTURY_YEARS_NUMBER = 100
+const val ZERO = 0
+
 fun main() {
-    println(getCentury(1705))
-    println(getCentury(1900))
-    println(getCentury(1601))
-    println(getCentury(2000))
+    println(getCentury(YEAR_OF_17_CENTURY))
+    println(getCentury(YEAR_OF_20_CENTURY))
 }
 
 fun getCentury(year: Int) : Int {
-    var century = year / 100
+    var century = year / CENTURY_YEARS_NUMBER
 
-    if (year % 100 > 0) {
+    if (year % CENTURY_YEARS_NUMBER > ZERO) {
         century++
     }
     return century
