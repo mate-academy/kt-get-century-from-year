@@ -1,7 +1,7 @@
 package mate.academy
 
 fun main() {
-    println(getCentury(1601))
+    println(getCentury(1997))
 }
 
 fun getCentury(year: Int) : Int {
