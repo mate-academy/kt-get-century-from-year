@@ -1,9 +1,10 @@
 package mate.academy
 
+const val CENTRY = 100
 fun getCentury(year: Int) : Int {
-    if (year % 100 == 0) {
-        return year / 100
+    return if (year % CENTRY == 0) {
+        year / CENTRY
     } else {
-        return year / 100 + 1
+        year / CENTRY + 1
     }
 }
