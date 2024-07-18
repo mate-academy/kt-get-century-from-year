@@ -1,11 +1,14 @@
 package mate.academy
 
+const val HUNDRED = 100
+const val ONE = 1
 fun getCentury(year: Int) : Int {
+
       val result = if (year % 2 == 0) {
-        year / 100
+        year / HUNDRED
     }
     else {
-        year / 100 + 1
+        year / HUNDRED + ONE
     }
     return result
 }
