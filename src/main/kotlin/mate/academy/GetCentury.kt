@@ -1,8 +1,9 @@
 package mate.academy
 
+const val DEL = 100
 fun getCentury(year: Int) : Int {
-    val sum = if(year%100 > 0) 1 else 0
-    println(year%100)
-    val sen = sum + year/100
+    val sum = if(year%DEL > 0) 1 else 0
+    println(year%DEL)
+    val sen = sum + year/DEL
     return sen
 }
