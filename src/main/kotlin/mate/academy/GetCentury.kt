@@ -1,7 +1,7 @@
 package mate.academy
 
 fun getCentury(year: Int) : Int {
-    val num = 99
-    val numOne = 100
-    return (year + num) / numOne
+    val CENTURY_OFFSET = 99
+    val CENTURY_SIZE = 100
+    return (year + CENTURY_OFFSET) / CENTURY_SIZE
 }
