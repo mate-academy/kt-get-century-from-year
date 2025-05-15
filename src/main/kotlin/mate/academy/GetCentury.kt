@@ -1,5 +1,7 @@
 package mate.academy
 
+const val CENTURY = 100
 fun getCentury(year: Int) : Int {
-    return if(year % 100 == 0) year / 100 else year / 100 + 1
+    if(year < 0) throw IllegalArgumentException("Year cannot be negative")
+    return if(year % CENTURY == 0) year / CENTURY else year / CENTURY + 1
 }
