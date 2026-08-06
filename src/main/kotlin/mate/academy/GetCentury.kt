@@ -1,5 +1,6 @@
 package mate.academy
 
-fun getCentury(year: Int) : Int {
-    return 0
+@Suppress("MagicNumber")
+fun getCentury(year: Int): Int {
+    return (year + 99) / 100
 }
