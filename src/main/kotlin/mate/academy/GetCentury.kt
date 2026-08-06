@@ -1,5 +1,8 @@
 package mate.academy
 
-fun getCentury(year: Int) : Int {
-    return 0
+import kotlin.math.ceil
+
+const val CENTURY = 100.0
+fun getCentury(year: Int): Int {
+    return ceil(year / CENTURY).toInt()
 }
