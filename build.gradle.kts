@@ -23,9 +23,6 @@ kotlin {
     jvmToolchain(11)
 }
 
-application {
-    mainClass.set("MainKt")
-}
 
 detekt {
     buildUponDefaultConfig = true // preconfigure defaults
