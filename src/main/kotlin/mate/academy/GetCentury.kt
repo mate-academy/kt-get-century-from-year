@@ -1,5 +1,9 @@
 package mate.academy
 
-fun getCentury(year: Int) : Int {
-    return 0
+const val CENTURY = 100
+const val PLUS_YEAR = 1
+const val MINUS_YEAR = 1
+
+fun getCentury(year: Int): Int {
+    return (year - MINUS_YEAR) / CENTURY + PLUS_YEAR
 }
